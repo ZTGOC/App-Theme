@@ -1,0 +1,170 @@
+body{
+    font-family: 'Open-sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.container{
+    margin: auto;
+}
+.primary-text{
+    color: #52a15f;
+}
+#main-header{
+    border-bottom: 1px solid #52a15f;
+}
+#navbar{
+    text-transform: uppercase;
+}
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+#navbar a{
+    text-decoration: none;
+    color: #888;
+}
+#navbar li.current a, #navbar a:hover{
+    color:  #52a15f;
+    border-bottom: 3px solid  #52a15f;
+    padding-bottom: 3px;
+}
+#showcase{
+    background: url(../img/showcase.jpg) no-repeat center center;
+    border-bottom: 1px solid  #52a15f;
+    margin-bottom: 30px;
+}
+#showcase .row{
+    height: 600px;
+}
+#showcase h1{
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+#showcase p{
+    padding: 0;
+    color: #ccc;
+}
+#showcase .showcase-content{
+    background: #333;
+    color: #fff;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: 0.9;
+}
+#features h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+#features p{
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+#features .fa{
+    font-size: 60px;
+    color: #52a15f
+}
+#info{
+    background: #333 url(../img/info-bg.jpg);
+    color: #fff;
+}
+#info h2{
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+    color:  #52a15f;
+}
+#info ul{
+    list-style: none;
+    padding: 0;
+}
+#info li{
+    line-height: 2em;
+    font-size: 20px;
+}
+#company{
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+#company h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #52a15f;
+}
+#company ul{
+    list-style: none;
+    padding: 0;
+    line-height: 2em;
+}
+#company input[type="text"]{
+    padding: 7px;
+}
+#company button{
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+#main-footer{
+    background:  #52a15f;
+    color: #fff;
+}
+#page{
+    margin-bottom: 40px;
+}
+.services ul li{
+    list-style: none;
+    padding: 10px;
+}
+.services ul li:nth-child(odd){
+    background: #333;
+    color: #fff;
+}
+.services ul li:nth-child(even){
+    background: #52a15f;
+    color: #fff;
+}
+.contact form{
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+.contact form input[type="text"]{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.contact form textarea{
+    width: 50%;
+    height: 100px;
+}
+.contact form button{
+    width: 50%;
+    padding: 10px 0;
+    border: none;
+    background: #222;
+    color: #fff;
+}
+.contact form label{
+    text-transform: uppercase;
+    color:  #52a15f;
+}
+@media(max-width:800px){
+    #showcase h1{
+        font-size: 30px;
+    }
+}
+@media(max-width:500px){
+    #showcase .showcase-content{
+        padding: 40px 10px;
+    }
+}
